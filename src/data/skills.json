@@ -1,5 +1,17 @@
 [
   {
+    "slug": "briefing",
+    "name": "Morning Briefing",
+    "author_github": "amurray101",
+    "description": "A one-screen weekday briefing — weather, today's calendar with prep, urgent unread messages, and the one thing to tackle first.",
+    "long_description": "Skip the morning news scroll. This skill produces a plain-markdown briefing (under 300 words, readable in 30 seconds) that pulls weather, today's calendar with any prep needed, urgent messages from the last 12 hours, and flags the one thing to tackle first. Includes a daily vocabulary pull from Word Genius for good measure. Meant to run every weekday at 7:30am so your day starts without opening five apps.",
+    "tags": ["productivity", "daily", "school"],
+    "category": "school",
+    "github_url": "https://github.com/amurray101/gsb-skills/blob/main/skills/briefing/SKILL.md",
+    "view_count": 612,
+    "skill_md_preview": "---\nname: briefing\ndescription: Generate a one-screen weekday morning briefing — weather, calendar, urgent messages, top priority.\n---\n\n# Morning Briefing\n\nGive me a one-screen morning briefing I can read in 30 seconds before my day starts.\n\n## Output\n\n- Under 300 words. No greeting, no signoff.\n- **Weather** — framed so I know how to dress.\n- **Calendar** — today, including prep I'll need.\n- **Urgent messages** — last 12 hours, unreplied.\n- **Top priority** — the one thing to tackle first.\n- **Word of the day** — from Word Genius email.\n\n## Guardrails\n\n- Never include private/sensitive channels.\n- Work email only — no personal.\n- If a source is unavailable, say so. Never fabricate."
+  },
+  {
     "slug": "coffee-chat-prep",
     "name": "Coffee Chat Prep",
     "author_github": "amurray101",
