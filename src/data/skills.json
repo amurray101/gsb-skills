@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "coffee-chat-prep",
+    "name": "Coffee Chat Prep",
+    "author_github": "amurray101",
+    "description": "Turn a name + LinkedIn URL into a 1-page brief with talking points, recent news, and smart questions.",
+    "long_description": "Paste a classmate's or alum's LinkedIn URL and this skill produces a one-page coffee chat brief: who they are, what they're working on, recent company news, two personal-angle talking points, and five questions to ask. Built for GSB students prepping for back-to-back chats during treks and recruiting weeks.",
+    "tags": ["networking", "recruiting"],
+    "category": "networking",
+    "github_url": "https://github.com/amurray101/coffee-chat-prep",
+    "view_count": 482,
+    "skill_md_preview": "---\nname: coffee-chat-prep\ndescription: One-page coffee chat brief from a LinkedIn URL\n---\n\n# Coffee Chat Prep\n\nWhen the user gives you a LinkedIn URL or a name + company, produce a one-page brief with:\n\n1. **Who they are** — current role, previous roles, school.\n2. **What they're working on** — recent posts, company news from the last 60 days.\n3. **Two personal-angle hooks** — something specific, not generic.\n4. **Five smart questions** — things an associate actually wants to be asked.\n\nNever fabricate. If a data source isn't available, say so."
+  },
+  {
+    "slug": "case-prep-partner",
+    "name": "Case Prep Partner",
+    "author_github": "octocat",
+    "description": "A case interviewer on demand — picks a case type, probes for structure, and gives honest feedback.",
+    "long_description": "Your silent case prep partner. Choose market sizing, profitability, or M&A — the skill picks a realistic case, pushes back when your structure is shaky, asks for math, and ends with a scorecard (framework, math, synthesis, communication) plus one thing to work on. No sugarcoating.",
+    "tags": ["case-prep", "recruiting"],
+    "category": "case-prep",
+    "github_url": "https://github.com/octocat/case-prep-partner",
+    "view_count": 356,
+    "skill_md_preview": "---\nname: case-prep-partner\ndescription: Mock case interviewer for consulting recruiting\n---\n\n# Case Prep Partner\n\nAct as a senior consultant running a 30-minute case. Start by asking the user which case type they want (market sizing, profitability, M&A, growth). Pick a realistic prompt. Push for a clean structure before letting them move on. Make them do the math out loud. End with:\n\n- Framework score (1-5)\n- Math score (1-5)\n- Synthesis score (1-5)\n- One concrete thing to practice"
+  },
+  {
+    "slug": "weekly-homework-planner",
+    "name": "Weekly Homework Planner",
+    "author_github": "mojombo",
+    "description": "Reads your syllabus PDFs and builds a Monday-to-Sunday study plan that fits around class and clubs.",
+    "long_description": "Drop in your syllabi for the quarter. The planner extracts every assignment, reading, and due date, then lays out a realistic week that respects your calendar (no studying during Section, Arbuckle dinners, or the Friday slam). Re-runs weekly so the plan stays fresh.",
+    "tags": ["school", "productivity"],
+    "category": "school",
+    "github_url": "https://github.com/mojombo/weekly-homework-planner",
+    "view_count": 298,
+    "skill_md_preview": "---\nname: weekly-homework-planner\ndescription: Build a realistic weekly study plan from syllabi + calendar\n---\n\n# Weekly Homework Planner\n\nInputs:\n- Syllabus PDFs in ./syllabi/\n- User's Google Calendar for the next 7 days\n\nOutput: a markdown plan with one section per day. For each day, list the 1-3 most important tasks given deadlines, each with a realistic time block that does not overlap meetings or classes.\n\nRules:\n- Never schedule work between 6pm Friday and 6pm Saturday.\n- Always leave one fully open evening per week.\n- Flag anything due in <48h at the top of the plan."
+  },
+  {
+    "slug": "section-social-planner",
+    "name": "Section Social Planner",
+    "author_github": "defunkt",
+    "description": "Picks a venue, drafts the invite, and handles the poll for your next section outing.",
+    "long_description": "Tell it the vibe (hike, dinner, dive bar, beach day) and a rough budget. The skill finds three Peninsula/SF options, drafts a short invite message with time suggestions, and spins up a poll you can paste into WhatsApp or iMessage. Remembers what your section has done before so you don't do trivia three weeks in a row.",
+    "tags": ["social", "gsb-life"],
+    "category": "social",
+    "github_url": "https://github.com/defunkt/section-social-planner",
+    "view_count": 219,
+    "skill_md_preview": "---\nname: section-social-planner\ndescription: Plan the next section outing end-to-end\n---\n\n# Section Social Planner\n\nWhen the user describes the vibe they want (e.g. 'low-key dinner outside, ~$40pp'), do three things:\n\n1. Suggest three Peninsula or SF venues that fit (name, neighborhood, price, why).\n2. Draft a 2-sentence invite message with 2-3 time options.\n3. Produce a poll-ready block (`Option A / Option B / Option C`) that pastes cleanly into WhatsApp.\n\nNever suggest a venue the section has been to in the last 30 days."
+  }
+]
